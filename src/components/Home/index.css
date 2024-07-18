@@ -1,0 +1,145 @@
+/* Write your CSS code here */
+
+@media screen and (max-width: 576px) {
+  .home-con {
+    width: 130vw;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+
+    height: 100vh;
+  }
+  .text-con {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .heading {
+    color: #1e293b;
+    font-size: 35px;
+    font-family: roboto;
+    text-align: center;
+  }
+  .cloth-img {
+    height: 35vh;
+    width: 70vw;
+  }
+  .para {
+    color: #475569;
+    font-size: 18px;
+    font-family: roboto;
+    text-align: center;
+  }
+  .sign-btn {
+    background-color: #0967d2;
+    border-width: 0px;
+    font-family: roboto;
+    font-size: 15px;
+    padding: 10px;
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .cloth-img-ele {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .home-con {
+    width: 130vw;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    height: 100vh;
+  }
+  .text-con {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .heading {
+    color: #1e293b;
+    font-size: 40px;
+    font-family: roboto;
+  }
+
+  .cloth-img {
+    height: 35vh;
+    width: 70vw;
+  }
+  .para {
+    color: #475569;
+    font-size: 20px;
+    font-family: roboto;
+  }
+  .sign-btn {
+    background-color: #0967d2;
+    border-width: 0px;
+    font-family: roboto;
+    font-size: 15px;
+    padding: 10px;
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .cloth-img-ele {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-con {
+    width: 130vw;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+  }
+  .text-con {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 40%;
+  }
+  .heading {
+    color: #1e293b;
+    font-size: 35px;
+    font-family: roboto;
+  }
+  .cloth-img {
+    display: none;
+  }
+  .para {
+    color: #475569;
+    font-size: 25px;
+    font-family: roboto;
+  }
+  .sign-btn {
+    background-color: #0967d2;
+    border-width: 0px;
+    font-family: roboto;
+    font-size: 20px;
+    padding: 15px;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .cloth-img-ele {
+    height: 50vh;
+    width: 40%;
+  }
+}
